@@ -1,0 +1,4 @@
+:root { --bs-primary: #32393E; --bs-primary-rgb: 50, 57, 62; --bs-secondary: #D2D9E0; --bs-secondary-rgb: 210, 217, 224; }
+body { --bs-body-color: #32393E; --bs-body-color-rgb: 50, 57, 62; --bs-body-bg: #f9fffc; --bs-body-bg-rgb: 249, 255, 252; }
+.navbar-nav { --bs-nav-link-color: #32393E; }
+.btn { --bs-btn-border-radius: 0px; --bs-btn-border-width: 2px;}
