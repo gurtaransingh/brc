@@ -508,8 +508,9 @@
 
 
 			<!--offcanvasCart ======================-->
-			<!-- <div class="offcanvas offcanvas-end" id="offcanvasCart" tabindex="-1">
+			<div class="offcanvas offcanvas-end" id="offcanvasCart" data-bs-scroll="true" tabindex="-1">
 				<div class="offcanvas-header">
+
 					<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
 				</div>
 				<div class="offcanvas-body px-3 py-40 py-xxl-100 px-lg-5">				
@@ -563,13 +564,13 @@
 					</div>						
 					
 				</div>
-			</div> -->
+			</div>
 			<!--offcanvasCart ======================-->
 
 
 
 			<!--Full-Screen-Modal (Search-Modal) ======================-->
-			<!-- <div class="modal fade" id="FullScreenModal" aria-hidden="true"  tabindex="-1">
+			<div class="modal fade" id="FullScreenModal" aria-hidden="true"  tabindex="-1">
 				<div class="modal-dialog modal-fullscreen">
 				  <div class="modal-content">
 					<div class="modal-header">					  
@@ -604,118 +605,43 @@
 					</div>					
 				  </div>
 				</div>
-			</div> -->
+			</div>
 			<!--Full-Screen-Modal (Search-Modal) ======================-->
 
 			  
 
 			<!--Hero Section ======================-->
-			<section class="section-hero hero-1 max-width">
-				<div id="heroSlider" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="4000">  <!--    -->
-					
-					<div class="carousel-indicators">
-						<div class="d-flex align-items-center gap-3 gap-lg-1 lh-1 active" data-bs-target="#heroSlider" data-bs-slide-to="0" aria-current="true">
-							<span class="indecators-item display-4 fw-extra-bold mb-0">01</span>
-							<span class="indecators-description fw-bold mb-0">Lifelong Quality Assurance</span>
-						</div>
-						<div class="d-flex align-items-center gap-3 gap-lg-1 lh-1" data-bs-target="#heroSlider" data-bs-slide-to="1">
-							<span class="indecators-item display-4 fw-extra-bold mb-0">02</span>
-							<span class="indecators-description fw-bold mb-0">Beautiful &<br>Modern Designs</span>
-						</div>
-						<div class="d-flex align-items-center gap-3 gap-lg-1 lh-1" data-bs-target="#heroSlider" data-bs-slide-to="2">
-							<span class="indecators-item display-4 fw-extra-bold mb-0">03</span>
-							<span class="indecators-description fw-bold mb-0">Customer <br> Satisfaction</span>
-						</div>					
-					</div>
-					<!-- carousel-indicators -->
-					<div class="carousel-inner">
-						<div class="carousel-item active">					
-							<picture>		
-								<source media="(max-width:500px)" srcset="assets/images/hero-1-sm.jpg">				
-								<source media="(max-width:768px)" srcset="assets/images/hero-1-md.jpg">				
-								<img src="assets/images/hero-1.jpg" alt="hero-image">
-							</picture>
-							<div>
-								<div class="carousel-captions">
-									<div class="container">		
-										<div class="content-text text-start">
-											<h1 class="stroke-heading display-2 fw-extra-bold d-flex flex-column">
-												<span class="hero-heading animate-fill primary">Elegance</span>																								
-												<svg stroke-width="2" class="text-line display-2 fw-extra-bold z-1"><text x="0%" dominant-baseline="middle" y="70%">Redefined</text></svg>
-											</h1>
-											<div class="architronix-button">
-												<a href="project-archive.html" class="btn btn-outline-primary gap-10">Explore our Portfolio 
-													<svg width="35" height="22" viewBox="0 0 35 22" fill="none" xmlns="../../../external.html?link=http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M24 0.585815L34.4142 10.9999L24 21.4142L22.5858 20L30.5857 12L0 12L2.38419e-07 10L30.5858 10L22.5858 2.00003L24 0.585815Z"/></svg>																														
-												</a>
-											</div>
-										</div>										
+			<section class="section-hero hero-3 position-relative max-width z-1 overflow-hidden bg-dark">
+				<div class="video-bg">		
+					<video muted loop autoplay>						
+						<source src="assets/videos/video-3.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+					<div class="video-bg-overlay"></div>					
+					<div>						
+						<div class="container">		
+							<div class="content-text text-start">	
+								<h1 class="huge-text light-text typed-text fw-extra-bold lh-1">
+									Shaping Interior<br>
+									<div id="typed-strings">
+										<p>Excellence</p>
+										<p>Sophistication</p>
+										<p>Elegance</p>
+										<p>Brilliance</p>
+										<p>Harmony</p>
 									</div>
-								</div> 
-							</div>						
-														
-						</div>
-						<div class="carousel-item">
-							<picture>						
-								<source media="(max-width:500px)" srcset="assets/images/hero-2-sm.jpg">
-								<source media="(max-width:768px)" srcset="assets/images/hero-2-md.jpg">				
-								<img src="assets/images/hero-2.jpg" alt="hero-image">
-							</picture> 
-							<div class="carousel-captions">
-								<div class="container">		
-									<div class="content-text text-start">
-										<h1 class="stroke-heading display-2 fw-extra-bold d-flex flex-column">
-											<span class="hero-heading animate-fill primary">Design</span>										
-											<svg stroke-width="2" class="text-line display-2 fw-extra-bold z-1"><text x="0%" dominant-baseline="middle" y="70%">Innovative</text></svg>
-										</h1>
-										<div class="architronix-button">
-											<a href="project-archive.html" class="btn btn-outline-primary  gap-10">Explore our Portfolio 							
-												<svg width="35" height="22" viewBox="0 0 35 22" fill="none" xmlns="../../../external.html?link=http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M24 0.585815L34.4142 10.9999L24 21.4142L22.5858 20L30.5857 12L0 12L2.38419e-07 10L30.5858 10L22.5858 2.00003L24 0.585815Z"/>
-												</svg>							
-											</a>
-										</div>
-									</div>										
+									<span id="typed"></span>								
+								</h1>
+								<div class="architronix-button">
+									<a href="project-archive.html" class="btn btn-secondary gap-10">Explore our Portfolio 
+										<svg width="35" height="22" viewBox="0 0 35 22" fill="none" xmlns="../../../external.html?link=http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M24 0.585815L34.4142 10.9999L24 21.4142L22.5858 20L30.5857 12L0 12L2.38419e-07 10L30.5858 10L22.5858 2.00003L24 0.585815Z"/>
+										</svg>	
+									</a>
 								</div>
-							</div> 						
-						</div>
-						<div class="carousel-item">
-							<picture>						
-								<source media="(max-width:500px)" srcset="assets/images/hero-3-sm.jpg">	
-								<source media="(max-width:768px)" srcset="assets/images/hero-3-md.jpg">				
-								<img src="assets/images/hero-3.jpg" alt="hero-image">
-							</picture> 
-							<div class="carousel-captions">
-								<div class="container">		
-									<div class="content-text text-start">
-										<h1 class="stroke-heading display-2 fw-extra-bold d-flex flex-column">
-											<span class="hero-heading animate-fill primary">Easy</span>										
-											<svg stroke-width="2" class="text-line display-2 fw-extra-bold z-1"><text x="0%" dominant-baseline="middle" y="70%">Consultation</text></svg>
-										</h1>
-										<div class="architronix-button">
-											<a href="project-archive.html" class="btn btn-outline-primary  gap-10">Explore our Portfolio 							
-												<svg width="35" height="22" viewBox="0 0 35 22" fill="none" xmlns="../../../external.html?link=http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M24 0.585815L34.4142 10.9999L24 21.4142L22.5858 20L30.5857 12L0 12L2.38419e-07 10L30.5858 10L22.5858 2.00003L24 0.585815Z"/>
-												</svg>							
-											</a>
-										</div>
-									</div>										
-								</div>
-							</div> 
-						</div>
-					</div>
-					<div class="carousel-control-buttons d-flex flex-column gap-0 position-absolute bottom-0 end-0">
-						<a class="next-btn" href="#" data-bs-target="#heroSlider" data-bs-slide="next">						
-							<svg width="35" height="22" viewBox="0 0 35 22" fill="none" xmlns="../../../external.html?link=http://www.w3.org/2000/svg">
-								<path fill-rule="evenodd" clip-rule="evenodd" d="M24 0.585815L34.4142 10.9999L24 21.4142L22.5858 20L30.5857 12L0 12L2.38419e-07 10L30.5858 10L22.5858 2.00003L24 0.585815Z"/>
-							</svg>							
-						</a>						
-						<a class="prev-btn" href="#" data-bs-target="#heroSlider" data-bs-slide="prev"> 														
-							<svg class="arrow-reverse" width="35" height="22" viewBox="0 0 35 22" fill="none" xmlns="../../../external.html?link=http://www.w3.org/2000/svg">
-								<path fill-rule="evenodd" clip-rule="evenodd" d="M24 0.585815L34.4142 10.9999L24 21.4142L22.5858 20L30.5857 12L0 12L2.38419e-07 10L30.5858 10L22.5858 2.00003L24 0.585815Z"/>
-							</svg>		
-						</a>							
-					</div>
+							</div>										
+						</div>						
+					</div>					
 				</div>
 			</section>
 			<!--Hero Section ======================-->
@@ -781,7 +707,7 @@
 										</div>
 									</div>
 									<div>
-										<a href="about-us.html" class="btn btn-link link-hover-animation-1 d-inline-flex gap-10 align-items-center">Know More About Us<span>
+										<a href="about-us.html" class="btn btn-link link-hover-animation-1 d-inline-flex gap-10 align-items-center">Learn more About Us <span>
 											<svg width="35" height="22" viewBox="0 0 35 22" fill="none" xmlns="../../../external.html?link=http://www.w3.org/2000/svg">
 											<path fill-rule="evenodd" clip-rule="evenodd" d="M24 0.585815L34.4142 10.9999L24 21.4142L22.5858 20L30.5857 12L0 12L2.38419e-07 10L30.5858 10L22.5858 2.00003L24 0.585815Z"/>
 											</svg></span>
@@ -859,6 +785,7 @@
 				</div>
 
 				<div class="horizontal-accordion d-flex">
+
 					<div class="gallery-contents gallery-sm">
 						
 						<div class="gallery-wrapper position-relative overflow-hidden w-100 h-100">
@@ -952,7 +879,7 @@
 							</h3>													
 						</div>
 												
-					</div>					
+					</div>						
 				</div>			  
 			</section>
 			<!--Gallery Section ======================-->
@@ -971,7 +898,7 @@
 								<div class="d-flex flex-column flex-lg-row gap-4 align-items-lg-end justify-content-lg-between">
 									<p class="fs-4 fw-semibold mb-0 subtitle subtitle-width">Exploring Excellence in Every Meticulous Design Detail</p>	
 									<div class="architronix-button">
-										<a href="service-single.html" class="btn btn-outline-primary  gap-10">View All Services 							
+										<a href="services.html" class="btn btn-outline-primary  gap-10">View All Services 							
 											<svg width="35" height="22" viewBox="0 0 35 22" fill="none" xmlns="../../../external.html?link=http://www.w3.org/2000/svg">
 												<path fill-rule="evenodd" clip-rule="evenodd" d="M24 0.585815L34.4142 10.9999L24 21.4142L22.5858 20L30.5857 12L0 12L2.38419e-07 10L30.5858 10L22.5858 2.00003L24 0.585815Z"/>
 											</svg>							
@@ -1108,7 +1035,7 @@
 								<div class="d-flex flex-column flex-lg-row gap-4 align-items-lg-end justify-content-lg-between">
 									<p class="fs-4 fw-semibold mb-0 subtitle subtitle-width">Where Imagination Meets Expertise and Dreams Take Shape</p>	
 									<div class="architronix-button">
-										<a href="contact-2.html" class="btn btn-outline-primary  gap-10">Contact Us 							
+										<a href="team.html" class="btn btn-outline-primary  gap-10">All Architects 							
 											<svg width="35" height="22" viewBox="0 0 35 22" fill="none" xmlns="../../../external.html?link=http://www.w3.org/2000/svg">
 												<path fill-rule="evenodd" clip-rule="evenodd" d="M24 0.585815L34.4142 10.9999L24 21.4142L22.5858 20L30.5857 12L0 12L2.38419e-07 10L30.5858 10L22.5858 2.00003L24 0.585815Z"/>
 											</svg>							
@@ -1125,22 +1052,22 @@
 							<div class="col-md-6 col-lg-4">
 								<div class="team-wrapper team-style-1 position-relative">
 									<ul class="contact-lists list-unstyled mb-0 d-inline-flex">
-										<li><a href="tel:+61430379248" class="link-hover-animation-1 text-decoration-none text-uppercase" aria-label="top-bar-link">+(61) 430-379-248</a></li>
-										<!-- <li><a href="#" class="link-hover-animation-1 text-decoration-none text-uppercase" aria-label="top-bar-link">in</a></li>
+										<li><a href="#" class="link-hover-animation-1 text-decoration-none text-uppercase" aria-label="top-bar-link">fb</a></li>
+										<li><a href="#" class="link-hover-animation-1 text-decoration-none text-uppercase" aria-label="top-bar-link">in</a></li>
 										<li><a href="#" class="link-hover-animation-1 text-decoration-none text-uppercase" aria-label="top-bar-link">tw</a></li>
-										<li><a href="#" class="link-hover-animation-1 text-decoration-none text-uppercase" aria-label="top-bar-link">li</a></li> -->
+										<li><a href="#" class="link-hover-animation-1 text-decoration-none text-uppercase" aria-label="top-bar-link">li</a></li>
 									</ul>
-									<!-- <div class="team-author-image overflow-hidden">
+									<div class="team-author-image overflow-hidden">
 										<img src="assets/images/team-1.jpg" class="w-100 h-100 object-fit-cover wow slideInLeft" alt="image">
-									</div> -->
+									</div>
 									<a href="team-single.html" class="text-decoration-none stretched-link">
 										<div class="team-details">											
 											<div class="team-details-inner position-relative d-flex align-items-center justify-content-between">
 												<div>
 													<span class="team-line-horizontal"></span>												
 													<span class="team-line-vertical"></span>
-													<h5 class="author-name">Sonny</h5>
-													<p class="mb-0">I design your homes.</p>
+													<h5 class="author-name">Russell Otten</h5>
+													<p class="mb-0">Interior Alchemist</p>
 												</div>
 												<div class="team-arrow-icon">
 													<svg width="35" height="22" viewBox="0 0 35 22" fill="none" xmlns="../../../external.html?link=http://www.w3.org/2000/svg">
@@ -1156,22 +1083,22 @@
 							<div class="col-md-6 col-lg-4">
 								<div class="team-wrapper team-style-2 position-relative">
 									<ul class="contact-lists list-unstyled mb-0 d-inline-flex">
-										<li><a href="tel:+61413099248" class="link-hover-animation-1 text-decoration-none text-uppercase" aria-label="top-bar-link"> +(61) 413-099-248</a></li>
-										<!-- <li><a href="#" class="link-hover-animation-1 text-decoration-none text-uppercase" aria-label="top-bar-link">in</a></li>
+										<li><a href="#" class="link-hover-animation-1 text-decoration-none text-uppercase" aria-label="top-bar-link">fb</a></li>
+										<li><a href="#" class="link-hover-animation-1 text-decoration-none text-uppercase" aria-label="top-bar-link">in</a></li>
 										<li><a href="#" class="link-hover-animation-1 text-decoration-none text-uppercase" aria-label="top-bar-link">tw</a></li>
-										<li><a href="#" class="link-hover-animation-1 text-decoration-none text-uppercase" aria-label="top-bar-link">li</a></li> -->
+										<li><a href="#" class="link-hover-animation-1 text-decoration-none text-uppercase" aria-label="top-bar-link">li</a></li>
 									</ul>
-									<!-- <div class="team-author-image overflow-hidden">
+									<div class="team-author-image overflow-hidden">
 										<img src="assets/images/team-2.jpg" class="w-100 h-100 object-fit-cover wow slideInLeft" alt="image">
-									</div> -->
+									</div>
 									<a href="team-single.html" class="text-decoration-none stretched-link">
 										<div class="team-details">											
 											<div class="team-details-inner position-relative d-flex align-items-center justify-content-between">
 												<div>
 													<span class="team-line-horizontal"></span>												
 													<span class="team-line-vertical"></span>
-													<h5 class="author-name">Jack</h5>
-													<p class="mb-0">I build your homes.</p>
+													<h5 class="author-name">Robert Jhonson</h5>
+													<p class="mb-0">Interior Alchemist</p>
 												</div>
 												<div class="team-arrow-icon">
 													<svg width="35" height="22" viewBox="0 0 35 22" fill="none" xmlns="../../../external.html?link=http://www.w3.org/2000/svg">
@@ -1187,22 +1114,22 @@
 							<div class="col-md-6 col-lg-4">
 								<div class="team-wrapper position-relative">
 									<ul class="contact-lists list-unstyled mb-0 d-inline-flex">
-										<!-- <li><a href="tel:+919316501336" class="link-hover-animation-1 text-decoration-none text-uppercase" aria-label="top-bar-link">+(91) 931-6501-336</a></li>
+										<li><a href="#" class="link-hover-animation-1 text-decoration-none text-uppercase" aria-label="top-bar-link">fb</a></li>
 										<li><a href="#" class="link-hover-animation-1 text-decoration-none text-uppercase" aria-label="top-bar-link">in</a></li>
 										<li><a href="#" class="link-hover-animation-1 text-decoration-none text-uppercase" aria-label="top-bar-link">tw</a></li>
-										<li><a href="#" class="link-hover-animation-1 text-decoration-none text-uppercase" aria-label="top-bar-link">li</a></li> -->
+										<li><a href="#" class="link-hover-animation-1 text-decoration-none text-uppercase" aria-label="top-bar-link">li</a></li>
 									</ul>
-									<!-- <div class="team-author-image overflow-hidden">
+									<div class="team-author-image overflow-hidden">
 										<img src="assets/images/team-3.jpg" class="w-100 h-100 object-fit-cover wow slideInLeft" alt="image">
-									</div> -->
+									</div>
 									<a href="team-single.html" class="text-decoration-none stretched-link">
 										<div class="team-details">											
 											<div class="team-details-inner position-relative d-flex align-items-center justify-content-between">
 												<div>
 													<span class="team-line-horizontal"></span>												
 													<span class="team-line-vertical"></span>
-													<h5 class="author-name">Gurtaran</h5>
-													<p class="mb-0">I make internet beautiful.</p>
+													<h5 class="author-name">Victoria Savano</h5>
+													<p class="mb-0">Interior Desiner</p>
 												</div>
 												<div class="team-arrow-icon">
 													<svg width="35" height="22" viewBox="0 0 35 22" fill="none" xmlns="../../../external.html?link=http://www.w3.org/2000/svg">
@@ -1220,6 +1147,7 @@
 				</div>
 			</section>
 			<!--Team Section ======================-->
+
 
 
 			<!--Video Section ======================-->
@@ -1265,7 +1193,7 @@
 									</ul>
 										
 									<div class="architronix-button">
-										<a href="service-single.html" class="btn btn-outline-secondary  d-inline-flex gap-10 align-items-center">Process of Our Work<span>
+										<a href="services.html" class="btn btn-outline-secondary  d-inline-flex gap-10 align-items-center">Process of Our Work<span>
 											<svg width="35" height="22" viewBox="0 0 35 22" fill="none" xmlns="../../../external.html?link=http://www.w3.org/2000/svg">
 											<path fill-rule="evenodd" clip-rule="evenodd" d="M24 0.585815L34.4142 10.9999L24 21.4142L22.5858 20L30.5857 12L0 12L2.38419e-07 10L30.5858 10L22.5858 2.00003L24 0.585815Z"/>
 											</svg></span>
@@ -1279,13 +1207,13 @@
 											<div class="video-image">
 												<img src="assets/images/video-image.jpg" class="img-fluid" alt="img">
 											</div>
-											<!-- <a href="../../../external.html?link=https://www.youtube.com/watch?v=xIpQgJ-fGK8&list=PLRNsqJKPXrnmruVt4-BN4rTYiUmz2jeCF&index=11" class="video-popup video-popup-link">
+											<a href="../../../external.html?link=https://www.youtube.com/watch?v=lfDZJqSrIuk" class="video-popup video-popup-link">
 												<span class="video-icon">												
 													<svg width="30" height="36" viewBox="0 0 30 36" fill="none" xmlns="../../../external.html?link=http://www.w3.org/2000/svg">
 														<path d="M0.500004 1.54552L29 18L0.500002 34.4545L0.500004 1.54552Z" stroke="#253B2F"/>
 													</svg>
 												</span>	
-											</a> -->
+											</a>
 										</div>										
 									</div>
 								</div>
@@ -1301,7 +1229,7 @@
 
 			<!--Project Section ======================-->
 			<section class="section-project project-1">
-				<div class="section-full-width">
+				<div class="section-full-width max-width">
 					<div class="section-title-wrapper position-relative">		
 						<div class="scroll-move">
 							<span class="scrolling-text display-1 fw-extra-bold stroke-title text-stroke stroke-opacity-20 stroke-width-1 stroke-primary lh-1">Project</span>
@@ -1766,12 +1694,12 @@
 									</a>
 								</div>									
 							</div>
-							<!-- swiper-slide-->
+							<!-- swiper-slide-->		
 							<div class="swiper-slide">
 								<div class="shop-details">
 									<div class="shop-image-wrapper position-relative">
 										<div class="shop-image">
-											<img src="assets/images/shop-image-1.jpg" class="w-100 h-100 object-fit-cover" alt="img">
+											<img src="assets/images/shop-image-2.jpg" class="w-100 h-100 object-fit-cover" alt="img">
 										</div>
 										<div class="shop-image-hover">
 											<a class="btn btn-sm btn-outline-secondary  gap-10" href="product-single.html"> 	
@@ -1785,7 +1713,7 @@
 													<rect width="24" height="24" transform="translate(0 0.5)"/>
 													</clipPath>
 													</defs>
-												</svg> 		
+												</svg> 
 											</a>
 										</div>
 									</div>
@@ -1793,19 +1721,20 @@
 									<a href="product-single.html" class="text-decoration-none">
 										<div class="shopping-info-wrapper mt-3 mt-lg-4 d-flex justify-content-between">
 											<div class="shopping-item-details">
-												<h5 class="fw-semibold product-title">Memento 2.0</h5>
-												<span class="product-price fs-5">$134.99</span>
+												<h5 class="fw-semibold product-title">SX Bathtubs</h5>
+												<span class="product-price fs-5">$499.99</span>
 											</div>
 											<div>
 											<span class="star-rating" >										
-												<span class="star-fill" style="width: 80%;"></span>
+												<span class="star-fill" style="width: 100%;"></span>
 											</span>
 										</div>
 										</div>
 									</a>
 								</div>									
 							</div>
-							<!-- swiper-slide-->			
+							<!-- swiper-slide-->	
+															
 						</div>
 						<!-- swiper-wrapper -->
 					</div>
@@ -1926,7 +1855,7 @@
 
 
 			<!--Feedback Section ======================-->
-			<section id="feedback" class="section-feedback feedback-1 text-secondary">
+			<section class="section-feedback feedback-1 text-secondary">
 				<div class="container">
 					<div class="feedback-wrapper position-relative">
 						<div class="feedback-content d-flex flex-column gap-4 flex-lg-row align-items-lg-end justify-content-lg-around">
@@ -1938,7 +1867,8 @@
 										<path fill-rule="evenodd" clip-rule="evenodd" d="M24 0.585815L34.4142 10.9999L24 21.4142L22.5858 20L30.5857 12L0 12L2.38419e-07 10L30.5858 10L22.5858 2.00003L24 0.585815Z"></path>
 									</svg>
 								</a>
-							</div>							
+							</div>
+							
 						</div>
 					</div>
 				</div>
@@ -1955,8 +1885,8 @@
 								<div>
 									<a class="navbar-brand py-0" href="index.html">
 									<span class="logo">
-											<img src="assets/images/logo.png" alt="logo">
-										<!-- <svg width="219" height="31" viewBox="0 0 219 31" fill="none" xmlns="../../../external.html?link=http://www.w3.org/2000/svg">
+											<!-- <img src="assets/images/logo.png" alt="logo"> -->
+										<svg width="219" height="31" viewBox="0 0 219 31" fill="none" xmlns="../../../external.html?link=http://www.w3.org/2000/svg">
 										<path d="M196.212 30.2799L203.852 19.3199L196.172 8.43994H203.132L208.892 16.9199H205.852L211.612 8.43994H218.572L210.892 19.3199L218.492 30.2799H211.572L205.932 21.7999H208.812L203.172 30.2799H196.212Z"/>
 										<path d="M187.541 30.28V8.43998H193.541V30.28H187.541ZM187.541 6.47998V0.47998H193.541V6.47998H187.541Z"/>
 										<path d="M163.596 30.28V8.43996H169.196V12.76L168.876 11.8C169.383 10.4933 170.196 9.5333 171.316 8.91996C172.463 8.27996 173.796 7.95996 175.316 7.95996C176.969 7.95996 178.409 8.30663 179.636 8.99996C180.889 9.69329 181.863 10.6666 182.556 11.92C183.249 13.1466 183.596 14.5866 183.596 16.24V30.28H177.596V17.52C177.596 16.6666 177.423 15.9333 177.076 15.32C176.756 14.7066 176.289 14.2266 175.676 13.88C175.089 13.5333 174.396 13.36 173.596 13.36C172.823 13.36 172.129 13.5333 171.516 13.88C170.903 14.2266 170.423 14.7066 170.076 15.32C169.756 15.9333 169.596 16.6666 169.596 17.52V30.28H163.596Z"/>
@@ -1968,34 +1898,34 @@
 										<path d="M57.2064 30.76C55.0198 30.76 53.0464 30.2666 51.2864 29.28C49.5531 28.2666 48.1664 26.8933 47.1264 25.16C46.1131 23.4266 45.6064 21.48 45.6064 19.32C45.6064 17.16 46.1131 15.2266 47.1264 13.52C48.1398 11.7866 49.5264 10.4266 51.2864 9.43996C53.0464 8.4533 55.0198 7.95996 57.2064 7.95996C58.8331 7.95996 60.3398 8.23996 61.7264 8.79996C63.1131 9.35996 64.2998 10.1466 65.2864 11.16C66.2731 12.1466 66.9798 13.32 67.4064 14.68L62.2064 16.92C61.8331 15.8266 61.1931 14.96 60.2864 14.32C59.4064 13.68 58.3798 13.36 57.2064 13.36C56.1664 13.36 55.2331 13.6133 54.4064 14.12C53.6064 14.6266 52.9664 15.3333 52.4864 16.24C52.0331 17.1466 51.8064 18.1866 51.8064 19.36C51.8064 20.5333 52.0331 21.5733 52.4864 22.48C52.9664 23.3866 53.6064 24.0933 54.4064 24.6C55.2331 25.1066 56.1664 25.36 57.2064 25.36C58.4064 25.36 59.4464 25.04 60.3264 24.4C61.2064 23.76 61.8331 22.8933 62.2064 21.8L67.4064 24.08C67.0064 25.36 66.3131 26.5066 65.3264 27.52C64.3398 28.5333 63.1531 29.3333 61.7664 29.92C60.3798 30.48 58.8598 30.76 57.2064 30.76Z"/>
 										<path d="M31.0569 30.28V8.43995H36.6569V13.68L36.2569 12.92C36.7369 11.08 37.5236 9.83995 38.6169 9.19995C39.7369 8.53329 41.0569 8.19995 42.5769 8.19995H43.8569V13.4H41.9769C40.5102 13.4 39.3236 13.8533 38.4169 14.76C37.5102 15.64 37.0569 16.8933 37.0569 18.52V30.28H31.0569Z"/>
 										<path d="M0 30.28L10.08 0.47998H18.32L28.4 30.28H21.64L19.64 24.2H8.72L6.72 30.28H0ZM10.44 18.8H17.92L13.36 4.71998H15.04L10.44 18.8Z"/>
-										</svg> -->
+										</svg>
 									</span>
 									</a>
 									<p class="py-10 py-lg-3 mb-0 fw-semibold">Shaping Interior Excellence</p>
 									<ul class="contact-lists list-unstyled mb-0 d-flex">
-										<!-- <li><a href="#" class="link-hover-animation-1 text-decoration-none text-uppercase" aria-label="top-bar-link">fb</a></li>
+										<li><a href="#" class="link-hover-animation-1 text-decoration-none text-uppercase" aria-label="top-bar-link">fb</a></li>
 										<li><a href="#" class="link-hover-animation-1 text-decoration-none text-uppercase" aria-label="top-bar-link">in</a></li>
 										<li><a href="#" class="link-hover-animation-1 text-decoration-none text-uppercase" aria-label="top-bar-link">tw</a></li>
-										<li><a href="#" class="link-hover-animation-1 text-decoration-none text-uppercase" aria-label="top-bar-link">li</a></li> -->
+										<li><a href="#" class="link-hover-animation-1 text-decoration-none text-uppercase" aria-label="top-bar-link">li</a></li>
 									</ul>
 								</div>
 							</div>
 							<!-- col-4 -->
 							<div class="col-lg-4 col-xxl-3">
 								<div class="address-details">
-									<h5 class="fw-extra-bold separator">Address Victoria</h5>
+									<h5 class="fw-extra-bold separator">Address Spain:</h5>
 									<div class="footer-address">
 										<p class="fw-semibold mb-0">BRC-Homes,</p>
-										<p>14 Inkspell Street, Kalkallo, Victoria 3064, Australia</p>
+										<p>Avda. Valencia, 3, 46891, Palomar (Valencia), SPAIN</p>
 									</div>
 									<div class="d-flex flex-column">
-										<p class="mb-0 d-flex align-items-center gap-2">Phone: <a href="tel:+61413099248" class="text-decoration-none link-hover-animation-1">+(61)413-099-248</a></p>
-										<p class="mb-0 d-flex align-items-center gap-2">Email: <a href="mailto:info@brchomes.au" class="text-decoration-none link-hover-animation-1">info@brchomes.au</a></p>
+										<p class="mb-0 d-flex align-items-center gap-2">Phone: <a href="tel:34962398486" class="text-decoration-none link-hover-animation-1">34 96 239 84 86</a></p>
+										<p class="mb-0 d-flex align-items-center gap-2">Email: <a href="mailto:hello@architronix.com" class="text-decoration-none link-hover-animation-1">hello@architronix.com</a></p>
 									</div>									
 								</div>
 							</div>
 							<!-- col-3 -->
-							<!-- <div class="col-lg-4 col-xxl-3">
+							<div class="col-lg-4 col-xxl-3">
 								<div class="address-details">
 									<h5 class="fw-extra-bold separator">Address USA:</h5>
 									<div class="footer-address">
@@ -2007,7 +1937,7 @@
 										<p class="mb-0 d-flex align-items-center gap-2">Email: <a href="mailto:hello@architronix.com" class="text-decoration-none link-hover-animation-1">hello@architronix.com</a></p>
 									</div>									
 								</div>
-							</div> -->
+							</div>
 							<!-- col-3 -->
 						</div>
 					</div>
@@ -2036,9 +1966,11 @@
 			</div>
 			<!--Back-to-top ======================-->
 
+
+			
 		</div>
 		<!-- pages -->
-			
+
 			<script src="../../../cdn.jsdelivr.net/gh/studio-freight/lenis%401.0.29/bundled/lenis.min.js"></script> 
 			<script src="assets/js/jquery-3.7.0.min.js"></script>	
 			<script src="assets/js/bootstrap.bundle.min.js"></script>	
@@ -2057,5 +1989,5 @@
 	</body>
 
 
-<!-- Mirrored from themeperch.net/html/architronix/home-1.html by HTTrack Website Copier/3.x [XR&CO'2017], Thu, 21 Nov 2024 05:05:10 GMT -->
+<!-- Mirrored from themeperch.net/html/architronix/home-3.html by HTTrack Website Copier/3.x [XR&CO'2017], Thu, 21 Nov 2024 05:05:49 GMT -->
 </html>
